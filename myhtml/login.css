@@ -1,0 +1,59 @@
+body {
+    font-family: "Lato", sans-serif;
+	margin-left: 400px;
+	text-align: center;
+    background-image: url("https://wallpapers.com/images/featured/information-technology-background-yj5lntx9lzio3yiz.jpg");
+}
+
+.main {
+    text-align: center;
+	width: 50%;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	font-family: "Lato";
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.wrap {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+}

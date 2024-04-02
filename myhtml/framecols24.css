@@ -1,0 +1,40 @@
+*
+{
+       text-size-adjust: 1px;
+}
+ol{
+     padding:6px;
+     margin: 15px;
+
+}
+body {
+     font-family: Arial, sans-serif;
+     background-color: #f0f0f0;
+ }
+
+ ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 20px 0;
+ }
+
+ li {
+     padding: 10px;
+     background-color: #ffffff;
+     margin-bottom: 5px; /* Adjust as needed */
+ }
+
+ /* Horizontal line styling */
+ li:not(:last-child) {
+     border-bottom: 1px solid #ccc;
+ }
+ 
+ /* Link styling */
+ li a {
+     color: #333;
+     text-decoration: none;
+ }
+
+ li a:hover {
+     color: #007bff; /* Change color on hover */
+ }

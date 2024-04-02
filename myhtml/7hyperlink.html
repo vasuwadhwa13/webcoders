@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlink</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #007bff;
+            margin-top: 30px;
+        }
+
+        ul {
+            margin-left: 30px;
+            padding-left: 0;
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+            background-color: rgb(241, 241, 247); 
+            padding: 5px; 
+            border-radius: 5px; 
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Hyperlink:</h2>
+    <ul>
+        <li>Creating a navigation link to a target web page or a target file when we click on an entity (text / image / etc.)</li>
+        <li>Types of Hyperlinks:</li>
+        <li>Standard web links</li>
+        <li>External web links</li>
+        <li>Email links</li>
+        <li>Telephone links (works for mobile browsers)</li>
+        <li>Navigating to a specific part of a web page links</li>
+        <li>Tag used for hyperlinking: &lt;a&gt;&lt;/a&gt;</li>
+        <li>Anchor tag (&lt;a&gt;) is a paired tag</li>
+        <li>Inside the &lt;a&gt;&lt;/a&gt; tags, we put the text or the image or entity that we want to create a hyperlink.</li>
+        <li>Standard web links: (opening a web page of the same website)</li>
+        <li>&lt;a href="target_web_page.html"&gt;Content&lt;/a&gt;</li>
+        <li>Note: The unvisited web page links are blue in color and underlined | the visited web pages links are purple in color and underlined</li>
+        <li>Attributes of &lt;a&gt;:</li>
+        <li>-&gt;href: Hyperlink reference. Here we give the target web page</li>
+        <li>-&gt;target: Where will the target web page be opened. _blank ensures that the target web page opens in a new window or a new tab.</li>
+        <li>External web links: (opening some other website)</li>
+        <li>&lt;a href="http://www.xyz.com" target="_blank"&gt;Content&lt;/a&gt;</li>
+        <li>Email links: (sending email via a configured email application/client)</li>
+        <li>&lt;a href="mailto:emailaddress"&gt;Mail Me&lt;/a&gt;</li>
+        <li>Telephone links: (dial a number – only works on a mobile browser)</li>
+        <li>&lt;a href="tel:phonenumber"&gt;Contact me on my phone&lt;/a&gt;</li>
+    </ul>
+</body>
+
+</html>
